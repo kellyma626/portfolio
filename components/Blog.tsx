@@ -13,7 +13,7 @@ export default function Blog() {
               <span className="text-xs leading-4 text-muted">{post.date}</span>
               <h3 className="mt-1.75 font-serif text-xl leading-7">{post.title}</h3>
               <p className="mt-2.5 max-w-165 text-sm leading-[22.75px] text-muted">{post.excerpt}</p>
-              <span className="mt-3.75 inline-block text-sm leading-5 text-accent">read this one →</span>
+              <span className="mt-3.75 inline-block text-sm leading-5 text-accent">read →</span>
             </a>
           </li>
         ))}
