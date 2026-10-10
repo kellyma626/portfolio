@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #241e1a;
+  --color-muted: #76706a;
+  --color-line: #e0ded8;
+  --color-accent: #d81b60;
+  --color-pill: #2c2520;
+  --color-cream: #fbfaf6;
+
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+  --font-serif: var(--font-instrument-serif), Georgia, serif;
+
+  --animate-eq: eq 0.9s ease-in-out infinite;
+
+  @keyframes eq {
+    0%, 100% {
+      transform: scaleY(0.35);
+    }
+    50% {
+      transform: scaleY(1);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 16px;
+}
+
+body {
+  @apply bg-white font-sans text-ink antialiased;
+}
+
+/* underlined link used in the header nav and contact section */
+@utility link-underline {
+  text-decoration: underline;
+  text-decoration-color: rgb(36 30 26 / 0.3);
+  text-underline-offset: 3px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+
+  &:hover {
+    color: var(--color-ink);
+    text-decoration-color: var(--color-ink);
+  }
+}
