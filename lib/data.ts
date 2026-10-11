@@ -53,7 +53,7 @@ export const work: Work[] = [
     tags: ["projects", "AI/ML"],
     date: "AUG 2025 - DEC 2025",
     linkLabel: "github ↗",
-    href: "https://github.com/Pablongo24/break-thru-tech-fitch-1a",
+    href: "https://github.com/kellyma626/bankruptcy-prediction",
     image: "/model.png"
   },
   {
