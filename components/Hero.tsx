@@ -41,7 +41,7 @@ export default function Hero() {
         </h1>
 
         <Image
-          src="/kelly.png"
+          src="/kelly7.jpg"
           alt="Kelly Ma"
           width={143}
           height={143}
